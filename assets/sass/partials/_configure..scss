@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 body {
@@ -21,5 +20,5 @@ h6 {
 }
 
 html {
-  scroll-behavior: smooth;
-}/*# sourceMappingURL=style.css.map */
+    scroll-behavior: smooth;
+}
