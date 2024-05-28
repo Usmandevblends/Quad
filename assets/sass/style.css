@@ -9,6 +9,7 @@
 
 body {
   font-family: "Figtree", sans-serif;
+  cursor: copy;
 }
 
 h1,
@@ -233,6 +234,7 @@ a {
   border-radius: 20px;
   margin: 0 16px 0 0;
   border: none !important;
+  cursor: pointer;
   transition: 0.5s;
 }
 .genaration .tab ul li a:hover {
@@ -247,6 +249,11 @@ a {
   border-radius: var(--4, 4px);
   border: 1px solid rgba(86, 95, 118, 0.1);
   padding: 20px 16px;
+  transition: 0.5s;
+}
+.genaration .tab-text-area:hover {
+  background-color: #FFf;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .genaration .tab-text-area .tab-icon {
   line-height: 84px;
