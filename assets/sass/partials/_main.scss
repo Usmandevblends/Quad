@@ -105,3 +105,82 @@
         }
     }
 }
+
+// Brands
+.container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 15s linear infinite;
+      white-space: nowrap;
+      .logos {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+      }
+    }
+  }
+  .rounded {
+    h4 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #0D0E10;
+    }
+  }
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+//   Generation
+.genaration {
+    background:  #F7F9FA;
+   .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        ul {
+            background-color: #ffffff;
+            border-radius: 100px;
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 80%;
+            li {
+                a {
+                    color:  #0D0E10;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 700;
+                    background: #F6F5FE;
+                    padding: 12px 24px;
+                    border-radius: 20px;
+                    margin: 0 16px 0 0;
+                    border: none!important;
+                    transition: 0.5s;
+                    &:hover {
+                        background: #6E24FF;
+                        color: #fff;
+                    }
+                }
+                .active {
+                    background: #6E24FF;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

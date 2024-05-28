@@ -31,3 +31,21 @@ a {
   text-decoration: none;
   font-family: "Figtree", sans-serif;
 }
+
+.content {
+  span {
+    background: rgba(110, 36, 255, 0.05);
+    border-radius: 35px;
+    color: #6E24FF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+  }
+  h2 {
+    color: var(--Text-Color, #0D0E10);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+}
