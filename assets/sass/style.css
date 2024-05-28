@@ -49,6 +49,17 @@ a {
   text-transform: capitalize;
 }
 
+@media (max-width: 992px) {
+  .content span {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 12px;
+  }
+  .content h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
 .site-header .header .nav ul li {
   padding-top: 10px;
 }
@@ -80,6 +91,27 @@ a {
   padding: 14px 24px;
 }
 
+@media (max-width: 992px) {
+  .site-header .header .nav ul li {
+    padding-top: 10px;
+  }
+  .site-header .header .nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .site-header .header .btns .primary_btn {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 24px;
+  }
+  .site-header .header .btns .secondary_btn {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 24px;
+  }
+}
 .Banner {
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -108,7 +140,7 @@ a {
   color: #fff;
 }
 .Banner .banner-right .primary {
-  background: #FC4B3E;
+  background: #fc4b3e;
   color: #fff;
   padding: 16px 24px;
   border-radius: 100px;
@@ -116,8 +148,8 @@ a {
   font-size: 18px;
 }
 .Banner .banner-right .secondary {
-  border: 1px solid #FFF;
-  color: #FFF;
+  border: 1px solid #fff;
+  color: #fff;
   background: transparent;
   padding: 12px 24px;
   border-radius: 100px;
@@ -159,7 +191,7 @@ a {
 .rounded h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #0D0E10;
+  color: #0d0e10;
 }
 
 @keyframes slidein {
@@ -179,7 +211,7 @@ a {
   }
 }
 .genaration {
-  background: #F7F9FA;
+  background: #e3eff5;
 }
 .genaration .tab {
   display: flex;
@@ -189,16 +221,14 @@ a {
 .genaration .tab ul {
   background-color: #ffffff;
   border-radius: 100px;
-  padding: 30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 80%;
+  width: 75%;
+  padding: 25px;
 }
 .genaration .tab ul li a {
-  color: #0D0E10;
-  text-align: center;
+  color: #0d0e10;
   font-size: 16px;
   font-weight: 700;
-  background: #F6F5FE;
+  background: #f6f5fe;
   padding: 12px 24px;
   border-radius: 20px;
   margin: 0 16px 0 0;
@@ -206,10 +236,96 @@ a {
   transition: 0.5s;
 }
 .genaration .tab ul li a:hover {
-  background: #6E24FF;
+  background: #6e24ff;
   color: #fff;
 }
 .genaration .tab ul li .active {
-  background: #6E24FF;
+  background: #6e24ff;
   color: #fff;
+}
+.genaration .tab-text-area {
+  border-radius: var(--4, 4px);
+  border: 1px solid rgba(86, 95, 118, 0.1);
+  padding: 20px 16px;
+}
+.genaration .tab-text-area .tab-icon {
+  line-height: 84px;
+  background: #e9deff;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.genaration .tab-text-area .tabs-text a {
+  color: #0d0e10;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+.genaration .tab-text-area .tabs-text p {
+  color: #676879;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+@media (max-width: 992px) {
+  .genaration .tab ul {
+    width: 150%;
+    padding: 30px 40px;
+    background: none !important;
+  }
+  .genaration .tab ul li a {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 12px 11px;
+    margin: 2px !important;
+  }
+  .genaration .tab ul li a:hover {
+    background: #6e24ff;
+    color: #fff;
+  }
+  .genaration .tab ul li .active {
+    background: #6e24ff;
+    color: #fff;
+  }
+}
+@media (max-width: 1092px) {
+  .genaration {
+    overflow: hidden !important;
+  }
+  .genaration .tab ul {
+    width: 150%;
+    padding: 30px 40px;
+    background: none !important;
+  }
+}
+@media (max-width: 776px) {
+  .genaration .tab ul {
+    width: 200%;
+    padding: 30px 40px;
+    background: none !important;
+  }
+}
+@media (max-width: 576px) {
+  .genaration .tab ul {
+    width: 100%;
+    padding: 30px 40px;
+    background: none !important;
+  }
+  .genaration .tab ul li a {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 12px 11px;
+    margin: 2px !important;
+  }
+  .genaration .tab ul li a:hover {
+    background: #6e24ff;
+    color: #fff;
+  }
+  .genaration .tab ul li .active {
+    background: #6e24ff;
+    color: #fff;
+  }
 }/*# sourceMappingURL=style.css.map */

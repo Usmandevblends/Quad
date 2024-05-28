@@ -5,6 +5,7 @@
             ul {
                 li {
                     padding-top: 10px;
+
                     a {
                         font-size: 16px;
                         font-weight: 500;
@@ -13,6 +14,7 @@
                 }
             }
         }
+
         .btns {
             .primary_btn {
                 border-radius: 25px;
@@ -41,6 +43,40 @@
     }
 }
 
+@media (max-width: 992px) {
+    .site-header {
+        .header {
+            .nav {
+                ul {
+                    li {
+                        padding-top: 10px;
+
+                        a {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .btns {
+                .primary_btn {
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 700;
+                    padding: 16px 24px;
+                }
+
+                .secondary_btn {
+                    font-size: 16px;
+                    font-weight: 700;
+                    padding: 14px 24px;
+                }
+            }
+        }
+    }
+}
+
 // Banner
 .Banner {
     background-repeat: no-repeat !important;
@@ -50,7 +86,10 @@
         top: 30%;
         width: 50% !important;
         .subheading {
-            background: var(--Title-Liner,linear-gradient(92deg, rgba(255, 255, 255, 0.4) -119.44%, rgba(255, 255, 255, 0.1) 98.36%));
+            background: var(
+                --Title-Liner,
+                linear-gradient(92deg, rgba(255, 255, 255, 0.4) -119.44%, rgba(255, 255, 255, 0.1) 98.36%)
+            );
             color: #fff;
             font-size: 16px;
             font-weight: 500;
@@ -65,10 +104,10 @@
         p {
             font-size: 18px;
             font-weight: 500;
-            color:#fff;
+            color: #fff;
         }
         .primary {
-            background:  #FC4B3E;
+            background: #fc4b3e;
             color: #fff;
             padding: 16px 24px;
             border-radius: 100px;
@@ -76,8 +115,8 @@
             font-size: 18px;
         }
         .secondary {
-            border: 1px solid  #FFF;
-            color:#FFF;
+            border: 1px solid #fff;
+            color: #fff;
             background: transparent;
             padding: 12px 24px;
             border-radius: 100px;
@@ -88,16 +127,17 @@
         top: 19%;
     }
 }
-
 @media (max-width: 992px) {
     .Banner {
         .banner-right {
             top: 25%;
             width: 90% !important;
+
             h1 {
                 font-size: 40px;
                 font-weight: 700;
             }
+
             p {
                 font-size: 16px;
                 font-weight: 500;
@@ -105,82 +145,207 @@
         }
     }
 }
-
 // Brands
 .container {
     overflow: hidden;
+
     .slider {
-      animation: slidein 15s linear infinite;
-      white-space: nowrap;
-      .logos {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-      }
+        animation: slidein 15s linear infinite;
+        white-space: nowrap;
+
+        .logos {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3rem;
+        }
     }
-  }
-  .rounded {
+}
+
+.rounded {
     h4 {
         font-size: 20px;
         font-weight: 700;
-        color: #0D0E10;
+        color: #0d0e10;
     }
-  }
-  @keyframes slidein {
+}
+
+@keyframes slidein {
     from {
-      transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
+
     to {
-      transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
     }
-  }
-  
-  @keyframes fade-in {
+}
+
+@keyframes fade-in {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
+}
+
 //   Generation
 .genaration {
-    background:  #F7F9FA;
-   .tab {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #e3eff5;
+
+    .tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         ul {
             background-color: #ffffff;
             border-radius: 100px;
-            padding: 30px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            width: 80%;
+            width: 75%;
+            padding: 25px;
+
             li {
                 a {
-                    color:  #0D0E10;
-                    text-align: center;
+                    color: #0d0e10;
                     font-size: 16px;
                     font-weight: 700;
-                    background: #F6F5FE;
+                    background: #f6f5fe;
                     padding: 12px 24px;
                     border-radius: 20px;
                     margin: 0 16px 0 0;
-                    border: none!important;
+                    border: none !important;
                     transition: 0.5s;
+
                     &:hover {
-                        background: #6E24FF;
+                        background: #6e24ff;
                         color: #fff;
                     }
                 }
+
                 .active {
-                    background: #6E24FF;
+                    background: #6e24ff;
                     color: #fff;
                 }
             }
         }
     }
+
+    .tab-text-area {
+        border-radius: var(--4, 4px);
+        border: 1px solid rgba(86, 95, 118, 0.1);
+        padding: 20px 16px;
+        .tab-icon {
+            line-height: 84px;
+            background: #e9deff;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .tabs-text {
+            a {
+                color: #0d0e10;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 20px;
+                margin-bottom: 12px;
+                text-transform: capitalize;
+            }
+            p {
+                color: #676879;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 28px;
+            }
+        }
+    }
 }
+
+@media (max-width: 992px) {
+    .genaration {
+        .tab {
+            ul {
+                width: 150%;
+                padding: 30px 40px;
+                background: none !important;
+
+                li {
+                    a {
+                        font-size: 11px;
+                        font-weight: 600;
+                        padding: 12px 11px;
+                        margin: 2px !important;
+
+                        &:hover {
+                            background: #6e24ff;
+                            color: #fff;
+                        }
+                    }
+
+                    .active {
+                        background: #6e24ff;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1092px) {
+    .genaration {
+        overflow: hidden !important;
+        .tab {
+            ul {
+                width: 150%;
+                padding: 30px 40px;
+                background: none !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 776px) {
+    .genaration {
+        .tab {
+            ul {
+                width: 200%;
+                padding: 30px 40px;
+                background: none !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .genaration {
+        .tab {
+            ul {
+                width: 100%;
+                padding: 30px 40px;
+                background: none !important;
+
+                li {
+                    a {
+                        font-size: 11px;
+                        font-weight: 600;
+                        padding: 12px 11px;
+                        margin: 2px !important;
+
+                        &:hover {
+                            background: #6e24ff;
+                            color: #fff;
+                        }
+                    }
+
+                    .active {
+                        background: #6e24ff;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//

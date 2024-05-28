@@ -49,3 +49,18 @@ a {
     text-transform: capitalize;
   }
 }
+
+@media (max-width:992px) {
+  
+.content {
+  span {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 12px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+}
