@@ -48,6 +48,13 @@ a {
   line-height: 48px;
   text-transform: capitalize;
 }
+.content p {
+  color: #676879;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
 
 @media (max-width: 992px) {
   .content span {
@@ -90,37 +97,49 @@ a {
   line-height: 16px;
   padding: 14px 24px;
 }
+.site-header .header .toggle-btn {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #FFf;
+  display: none;
+}
 
 @media (max-width: 992px) {
   .site-header .header .nav {
-    display: none;
+    background: #6E24FF;
+    display: block !important;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    display: none !important;
+    height: 100vh;
   }
-  .site-header .header .nav ul li {
-    padding-top: 10px;
+  .site-header .header .nav.show {
+    display: block !important;
   }
-  .site-header .header .nav ul li a {
-    font-size: 16px;
-    font-weight: 500;
-    color: #fff;
+  .site-header .header .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 99;
+    gap: 0px !important;
+    padding: 50px 20px;
   }
-  .site-header .header .btns .primary_btn {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 16px 24px;
-  }
-  .site-header .header .btns .secondary_btn {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 14px 24px;
+  .site-header .header .nav .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px !important;
+    margin-top: 10px;
   }
   .site-header .header .toggle-btn {
     display: block !important;
-    font-size: 24px;
-    color: #fff;
-  }
-  .nav.show {
-    display: block;
+    z-index: 99;
   }
 }
 .Banner {
@@ -291,7 +310,7 @@ a {
   .genaration .tab ul {
     width: 150%;
     padding: 30px 40px;
-    background: none !important;
+    background-color: #fff !important;
   }
   .genaration .tab ul li a {
     font-size: 11px;
@@ -315,21 +334,18 @@ a {
   .genaration .tab ul {
     width: 150%;
     padding: 30px 40px;
-    background: none !important;
   }
 }
 @media (max-width: 776px) {
   .genaration .tab ul {
     width: 200%;
     padding: 30px 40px;
-    background: none !important;
   }
 }
 @media (max-width: 576px) {
   .genaration .tab ul {
     width: 100%;
     padding: 30px 40px;
-    background: none !important;
   }
   .genaration .tab ul li a {
     font-size: 11px;

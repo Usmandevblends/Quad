@@ -14,7 +14,6 @@
                 }
             }
         }
-
         .btns {
             .primary_btn {
                 border-radius: 25px;
@@ -40,52 +39,57 @@
                 padding: 14px 24px;
             }
         }
+        .toggle-btn  {
+            font-size: 24px;
+            font-weight: 700;
+            cursor: pointer;
+            color: #FFf;
+            display: none;
+        }
     }
 }
-
-@media (max-width: 992px) {
+// Mobile version
+@media (max-width:992px) {
     .site-header {
         .header {
             .nav {
-                display: none;
-                ul {
-                    li {
-                        padding-top: 10px;
-
-                        a {
-                            font-size: 16px;
-                            font-weight: 500;
-                            color: #fff;
-                        }
-                    }
-                }
-            }
-            .btns {
-                .primary_btn {
-                    text-align: center;
-                    font-size: 16px;
-                    font-weight: 700;
-                    padding: 16px 24px;
-                }
-
-                .secondary_btn {
-                    font-size: 16px;
-                    font-weight: 700;
-                    padding: 14px 24px;
-                }
-            }
-            .toggle-btn {
+                background: #6E24FF;
                 display: block !important;
-                font-size: 24px;
-                color: #fff;
+                z-index: 99;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 60%;
+                display: none !important;
+                &.show {
+                    display: block !important;
+                }
+                height: 100vh;
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    z-index: 99;
+                    gap: 0px !important;
+                    padding: 50px 20px;
+                }
+                .btns {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 0px !important;
+                    margin-top: 10px;
+                }
+            }
+            .toggle-btn  {
+                display: block !important;
+                z-index: 99;
             }
         }
     }
-    .nav.show {
-        display: block;
-    }
 }
-
 // Banner
 .Banner {
     background-repeat: no-repeat !important;
@@ -157,7 +161,6 @@
 // Brands
 .container {
     overflow: hidden;
-
     .slider {
         animation: slidein 15s linear infinite;
         white-space: nowrap;
@@ -271,8 +274,7 @@
             ul {
                 width: 150%;
                 padding: 30px 40px;
-                background: none !important;
-
+                background-color: #fff !important;
                 li {
                     a {
                         font-size: 11px;
@@ -295,7 +297,6 @@
         }
     }
 }
-
 @media (max-width: 1092px) {
     .genaration {
         overflow: hidden !important;
@@ -303,32 +304,26 @@
             ul {
                 width: 150%;
                 padding: 30px 40px;
-                background: none !important;
             }
         }
     }
 }
-
 @media (max-width: 776px) {
     .genaration {
         .tab {
             ul {
                 width: 200%;
                 padding: 30px 40px;
-                background: none !important;
             }
         }
     }
 }
-
 @media (max-width: 576px) {
     .genaration {
         .tab {
             ul {
                 width: 100%;
                 padding: 30px 40px;
-                background: none !important;
-
                 li {
                     a {
                         font-size: 11px;
@@ -351,5 +346,5 @@
         }
     }
 }
+// Process
 
-//
