@@ -212,26 +212,16 @@
             width: 75%;
             padding: 25px;
             li {
-                a {
-                    color: #0d0e10;
-                    font-size: 16px;
-                    font-weight: 700;
-                    background: #f6f5fe;
-                    padding: 12px 24px;
-                    border-radius: 20px;
-                    margin: 0 16px 0 0;
-                    border: none !important;
-                    cursor: pointer;
-                    transition: 0.5s;
-                    &:hover {
-                        background: #6e24ff;
-                        color: #fff;
-                    }
-                }
-                .active {
-                    background: #6e24ff;
-                    color: #fff;
-                }
+                color: #0d0e10;
+                font-size: 16px;
+                font-weight: 700;
+                background: #f6f5fe;
+                padding: 12px 24px;
+                border-radius: 20px;
+                margin: 0 16px 0 0;
+                border: none !important;
+                cursor: pointer;
+                transition: 0.5s;
             }
         }
     }

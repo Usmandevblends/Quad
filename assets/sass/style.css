@@ -67,6 +67,11 @@ a {
     font-weight: 700;
   }
 }
+.active {
+  background: #6e24ff;
+  color: #fff;
+}
+
 .site-header .header .nav ul li {
   padding-top: 10px;
 }
@@ -254,7 +259,7 @@ a {
   width: 75%;
   padding: 25px;
 }
-.genaration .tab ul li a {
+.genaration .tab ul li {
   color: #0d0e10;
   font-size: 16px;
   font-weight: 700;
@@ -265,14 +270,6 @@ a {
   border: none !important;
   cursor: pointer;
   transition: 0.5s;
-}
-.genaration .tab ul li a:hover {
-  background: #6e24ff;
-  color: #fff;
-}
-.genaration .tab ul li .active {
-  background: #6e24ff;
-  color: #fff;
 }
 .genaration .tab-text-area {
   border-radius: var(--4, 4px);
