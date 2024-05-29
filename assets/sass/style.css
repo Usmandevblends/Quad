@@ -9,7 +9,6 @@
 
 body {
   font-family: "Figtree", sans-serif;
-  cursor: copy;
 }
 
 h1,
@@ -93,6 +92,9 @@ a {
 }
 
 @media (max-width: 992px) {
+  .site-header .header .nav {
+    display: none;
+  }
   .site-header .header .nav ul li {
     padding-top: 10px;
   }
@@ -111,6 +113,14 @@ a {
     font-size: 16px;
     font-weight: 700;
     padding: 14px 24px;
+  }
+  .site-header .header .toggle-btn {
+    display: block !important;
+    font-size: 24px;
+    color: #fff;
+  }
+  .nav.show {
+    display: block;
   }
 }
 .Banner {
