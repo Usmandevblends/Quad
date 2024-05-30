@@ -449,9 +449,22 @@ a {
     font-size: 18px;
   }
 }
+.Blog .blogs-content .blog-content {
+  transition: 0.5s;
+}
+.Blog .blogs-content .blog-content:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .Blog .blogs-content .blog-content .block-tags a {
   color: #676879;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 14px;
+}
+.Blog .blogs-content .blog-content a {
+  color: #0D0E10;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 16px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
