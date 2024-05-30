@@ -109,13 +109,13 @@ a {
   font-size: 24px;
   font-weight: 700;
   cursor: pointer;
-  color: #FFf;
+  color: #fff;
   display: none;
 }
 
 @media (max-width: 992px) {
   .site-header .header .nav {
-    background: #6E24FF;
+    background: #6e24ff;
     display: block !important;
     z-index: 99;
     position: absolute;
@@ -282,7 +282,7 @@ a {
   transition: 0.5s;
 }
 .genaration .tab-text-area:hover {
-  background-color: #FFf;
+  background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .genaration .tab-text-area .tab-icon {
@@ -364,31 +364,31 @@ a {
   }
 }
 .whychosse .service-box {
-  background: #F7F9FA;
+  background: #f7f9fa;
   margin-bottom: 30px;
   transition: all 0.4s ease-in-out;
   border-radius: 4px;
   padding: 15px;
 }
 .whychosse .service-box:hover {
-  background: #FC4B3E;
+  background: #fc4b3e;
 }
 .whychosse .service-box:hover .service-content a {
-  color: #FFFFFF;
+  color: #ffffff;
   /* Change link color on hover */
 }
 .whychosse .service-box:hover .service-content p {
-  color: #FFFFFF;
+  color: #ffffff;
   /* Change paragraph color on hover */
 }
 .whychosse .service-box:hover .service-content .readmore {
-  color: #FFFFFF;
+  color: #ffffff;
   /* Change readmore link color on hover */
 }
 .whychosse .service-box .service-icon,
 .whychosse .service-box .service-icon2,
 .whychosse .service-box .service-icon3 {
-  background: #F8DFDE;
+  background: #f8dfde;
   /* Set default background */
   height: 80px;
   width: 80px;
@@ -402,13 +402,13 @@ a {
   justify-content: center;
 }
 .whychosse .service-box .service-icon2 {
-  background: #E9DEFF;
+  background: #e9deff;
 }
 .whychosse .service-box .service-icon3 {
-  background: #D6EBE7;
+  background: #d6ebe7;
 }
 .whychosse .service-content a {
-  color: #0D0E10;
+  color: #0d0e10;
   text-align: center;
   text-overflow: ellipsis;
   font-size: 20px;
@@ -425,14 +425,19 @@ a {
 .whychosse .service-content .readmore {
   font-size: 16px;
   font-weight: 700;
-  color: #0D0E10;
+  color: #0d0e10;
   line-height: 16px;
   margin-bottom: 0;
   margin-top: 24px;
   display: inline-block;
 }
 
-/* Media queries for better responsiveness */
+@media (max-width: 992px) {
+  .whychosse {
+    width: 100%;
+    height: 210vh !important;
+  }
+}
 @media (max-width: 768px) {
   .whychosse {
     width: 100%;
@@ -462,9 +467,58 @@ a {
   line-height: 14px;
 }
 .Blog .blogs-content .blog-content a {
-  color: #0D0E10;
+  color: #0d0e10;
   font-size: 18px;
   font-weight: 600;
   margin-top: 16px;
   text-transform: capitalize;
+}
+
+.footer {
+  width: 100%;
+  height: 120vh;
+}
+.footer .footer-content h2 {
+  color: #FFF;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.footer .footer-content span {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.footer .footer-content .footer-btn a {
+  border-radius: 25px;
+  background: #6E24FF;
+  color: var(--white-100, #FFF);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  display: inline-block;
+  padding: 16px 24px;
+}
+.footer .footer-last {
+  background: #FFF;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(57.0340957642px);
+  backdrop-filter: blur(57.0340957642px);
+  padding: 50px 70px 28px 70px;
+}
+
+@media (max-width: 992px) {
+  .footer .footer-content h2 {
+    color: #FFF;
+    font-weight: 500;
+  }
+  .footer .footer-content span {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .footer .footer-content .footer-btn a {
+    font-size: 15px;
+    font-weight: 700;
+  }
 }/*# sourceMappingURL=style.css.map */
