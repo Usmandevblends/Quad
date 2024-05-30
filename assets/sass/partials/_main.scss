@@ -469,3 +469,19 @@
     }
 }
 
+// Blog
+.Blog {
+    .blogs-content {
+        .blog-content {
+            .block-tags {
+                a {
+                    color: #676879;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 14px;
+                }
+                
+            }
+        }
+    }
+}

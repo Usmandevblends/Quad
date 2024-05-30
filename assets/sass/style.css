@@ -448,4 +448,10 @@ a {
   .whychosse .service-box a {
     font-size: 18px;
   }
+}
+.Blog .blogs-content .blog-content .block-tags a {
+  color: #676879;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
 }/*# sourceMappingURL=style.css.map */
