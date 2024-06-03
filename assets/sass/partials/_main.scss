@@ -527,7 +527,6 @@
 .footer-section-area {
     padding: 0 0 28px 0;
 }
-
 .footer-section-area .footer-elements {
     position: absolute;
     top: 0;
@@ -551,7 +550,6 @@
 .footer-section-area .footer-header h2 {
     color: var(--white-100, #FFF);
     margin-bottom: 20px;
-    font-family: "Figtree", sans-serif !important;
 }
 
 .footer-section-area .footer-header span {
@@ -568,7 +566,6 @@
 .footer-section-area .footer-header .header-btn {
     margin-top: 32px;
 }
-
 .footer-section-area .footer-last-section {
     background: var(--white-10, rgba(255, 255, 255, 0.1));
     border-radius: var(--4, 4px);
@@ -577,26 +574,22 @@
     backdrop-filter: blur(57.0340957642px);
     padding: 50px 70px 28px 70px;
 }
-
 @media (max-width: 767px) {
     .footer-section-area .footer-last-section {
         padding: 30px;
     }
 }
-
 @media (max-width: 767px) {
     .footer-section-area .footer-last-section .footer-auhtor-area {
         margin-bottom: 30px;
     }
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area h3 {
     color: var(--white-100, #FFF);
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area p {
     color: #BDBDC5;
     font-size: 16px;
@@ -604,11 +597,9 @@
     line-height: 26px;
     margin-top: 24px;
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area ul {
     margin-bottom: 24px;
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area ul li a {
     color: #BDBDC5;
     font-size: 16px;
@@ -616,20 +607,16 @@
     line-height: 16px;
     margin-top: 24px;
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area ul li a:hover {
     color: var(--white-100, #FFF);
     padding-left: 5px;
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area ul.social-links li {
     margin: 0 6px 0 0;
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area ul.social-links li::after {
     display: none;
 }
-
 .footer-section-area .footer-last-section .footer-auhtor-area ul.social-links li a {
     height: 32px;
     width: 32px;
