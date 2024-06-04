@@ -2,14 +2,12 @@
 .site-header {
     height: 90px !important;
 }
-
 .header {
     .logo {
         img {
             z-index: 99;
         }
     }
-
     .nav {
         ul {
             display: flex;
@@ -29,7 +27,6 @@
                 }
             }
         }
-
         .btns {
             display: flex;
             gap: 20px;
@@ -72,7 +69,6 @@
         z-index: 99;
     }
 }
-
 @media (max-width: 992px) {
     .site-header {
         .header {
@@ -119,7 +115,6 @@
         }
     }
 }
-
 // Banner
 .Banner {
     background-repeat: no-repeat !important;
@@ -168,7 +163,6 @@
         }
     }
 }
-
 @media (max-width: 992px) {
     .Banner {
         .banner-right {
@@ -186,7 +180,6 @@
         }
     }
 }
-
 // Brands
 .container {
     overflow: hidden;
@@ -203,7 +196,6 @@
         }
     }
 }
-
 .rounded {
     h4 {
         font-size: 20px;
@@ -211,7 +203,6 @@
         color: #0d0e10;
     }
 }
-
 @keyframes slidein {
     from {
         transform: translate3d(0, 0, 0);
@@ -221,7 +212,6 @@
         transform: translate3d(-100%, 0, 0);
     }
 }
-
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -231,7 +221,6 @@
         opacity: 1;
     }
 }
-
 //   Generation
 .genaration {
     background: #e3eff5;
@@ -255,7 +244,6 @@
             }
         }
     }
-
     .tab-text-area {
         border-radius: var(--4, 4px);
         border: 1px solid rgba(86, 95, 118, 0.1);
@@ -292,7 +280,6 @@
         }
     }
 }
-
 @media (max-width: 992px) {
     .genaration {
         .tab {
@@ -311,7 +298,6 @@
         }
     }
 }
-
 @media (max-width: 1092px) {
     .genaration {
         .tab {
@@ -332,7 +318,6 @@
         }
     }
 }
-
 @media (max-width: 576px) {
     .genaration {
         .tab {
@@ -360,7 +345,6 @@
         }
     }
 }
-
 // why chose us
 .whychosse {
     .service-box {
